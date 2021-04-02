@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+  }
+ 
+  .element{
+    margin: 5%; 
+  }
+  .element input[type="text"] {
+    float: left;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    width: 80%;
+    background: #f1f1f1;
+  }
+  
+  .element button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196f3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    cursor: pointer;
+  }
+  
+  .element button:hover {
+    background: #0b7dda;
+  }
+  
+  .element::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .header {
+    text-align: center;
+    background: #1a8ebc;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    border-radius:20px;
+  }
+  .header1 {
+    text-align: center;
+    background: gainsboro;
+    border-radius: 20px;
+    margin: 0 auto;
+  }
+  .h3 {
+    text-decoration: underline;
+  }
